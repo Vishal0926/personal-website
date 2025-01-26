@@ -1,0 +1,152 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: lightblue;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#f1 {
+  height: 180px;
+  width: 180px;
+  float: left;
+  margin-right: 200px;
+  padding: 10px;
+}
+
+#f2 {
+  height: 180px;
+  width: 180px;
+  float: right;
+  margin-left: 200px;
+  padding: 10px;
+}
+
+/* Centering the boxes */
+.main-container {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+  gap: 50px; /* Space between the boxes */
+  padding: 20px; /* Optional padding around the container */
+}
+
+.detail,
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MENU, .details {
+  width: 300px;
+  height: 150px;
+  background-color: lightblue;
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+/* Description Section Styling */
+.description-section {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.description-section h2 {
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.description-section p {
+  color: #34495e;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+/* Enquiry Box Hover Effect */
+.box:hover {
+  background-color: #add8e6; /* Light Blue */
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.box:hover a {
+  color: black;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+/* Collections Section Styling */
+.collections-section {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #f4f4f4;
+  border: 2px solid #add8e6;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.collections-section h2 {
+  color: #2c3e50;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.collections-section p {
+  color: #34495e;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.collections-section ul {
+  color: #34495e;
+  font-size: 16px;
+  line-height: 1.6;
+  list-style-type: disc;
+  margin: 10px 20px;
+}
+
+.collections-section li {
+  margin: 8px 0;
+}
+
+.collections-section strong {
+  color: #2c3e50;
+}
+
+
